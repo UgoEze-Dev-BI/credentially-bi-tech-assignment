@@ -10,7 +10,7 @@ The dashboard tracks the full reference lifecycle from Requested to Submitted an
 
 Data Used
 
-The dashboard connects to five main tables: `ref_references`, `ref_job_positions`, `ref_assigned_to`, `ref_user_tags`, and a calculated `Dates` table. Relationships were reviewed and cleaned to avoid many-to-many joins, with a central star schema structure built around `ref_job_positions`.
+The dashboard connects to five main tables: `ref_references`, `ref_job_positions`, `ref_assigned_to`, `ref_user_tags`, and a calculated `Dates` table. Relationships were reviewed and cleaned to avoid many to many joins, with a central star schema structure built around `ref_job_positions`.
 
 Key Metrics
 
