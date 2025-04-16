@@ -18,11 +18,11 @@ The report includes metrics such as total reference count, number of submitted, 
 
 Features
 
-The dashboard presents a clean, one-page layout with key performance indicators at the top and visuals arranged for intuitive analysis. Users can interact with slicers for Year, Month, Reference Approval Status, Role, and Assigned To. Reference trends and lifecycle visuals help stakeholders quickly identify bottlenecks or inefficiencies. A completion time chart with conditional formatting highlights turnaround speed.
+The dashboard presents a clean, one page layout with key performance indicators at the top and visuals arranged for intuitive analysis. Users can interact with slicers for Year, Month, Reference Approval Status, Role, and Assigned To. Reference trends and lifecycle visuals help stakeholders quickly identify bottlenecks or inefficiencies. A completion time chart with conditional formatting highlights turnaround speed.
 
 GDPR & Data Privacy
 
-The dashboard includes an "Assigned To" slicer, which references internal users responsible for managing reference requests. This is considered personal or semi-personal data under GDPR. For internal use, this data is appropriate, but access must be restricted to authorized users only. In public-facing or external contexts, the assigned_to field should be anonymized or aggregated. Future enhancements may include implementing Row Level Security (RLS) to control visibility based on user role or login. No candidate PII (personally identifiable information) is used or exposed.
+The dashboard includes an "Assigned To" slicer, which references internal users responsible for managing reference requests. This is considered personal or semi-personal data under GDPR. For internal use, this data is appropriate, but access must be restricted to authorized users only. In public facing or external contexts, the assigned_to field should be anonymized or aggregated. Future enhancements may include implementing Row Level Security (RLS) to control visibility based on user role or login. No candidate PII (personally identifiable information) is used or exposed.
 
 Tools Used
 
